@@ -17,3 +17,7 @@
 .hero-image > img.sticker-art{position:absolute!important;inset:auto 18px auto auto!important;top:18px!important;width:clamp(130px,24%,165px)!important;height:auto!important;max-width:165px!important;max-height:none!important;object-fit:contain!important;background:transparent!important;padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;filter:drop-shadow(0 5px 9px #00183b55)!important;z-index:3!important}
 .offer-visual > img.sticker-art{position:absolute!important;inset:auto 18px 18px auto!important;width:clamp(130px,29%,175px)!important;height:auto!important;max-width:175px!important;max-height:none!important;object-fit:contain!important;background:transparent!important;padding:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;mix-blend-mode:normal!important;filter:drop-shadow(0 5px 9px #00224c55)!important;z-index:3!important}
 @media(max-width:480px){.hero-image > img.sticker-art{top:10px!important;right:10px!important;width:120px!important}.offer-visual > img.sticker-art{right:10px!important;bottom:10px!important;width:130px!important}}
+.hero-image.hero-illustration{background:transparent;box-shadow:none;border-radius:0;overflow:visible;display:flex;align-items:center;justify-content:center}
+.hero-image.hero-illustration:after{display:none}
+.hero-image.hero-illustration>img{width:100%;height:auto;max-height:610px;object-fit:contain;filter:drop-shadow(0 18px 30px #00163866)}
+@media(max-width:850px){.hero-image.hero-illustration{height:auto;min-height:0;margin:15px 0 35px}}
